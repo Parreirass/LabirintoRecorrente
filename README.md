@@ -56,4 +56,18 @@ AEDS I | CEFET-MG
   Um exemplo de "ciclo" de percursso do personagem pode ser visto na imagem abaixo:
 </p>
 
+<p align="center">
+<img src="img/PossivelCaminho1.jpeg"/> 
+</p>
 
+<p align = "center">
+   A partir dessas movimentações do personagem é possível observar que ele conquistou 10 itens no total, ou seja, conseguiu 2 vidas e ainda tem 2 itens em sua "mochila". Entretanto, ele passou por 4 perigos, perdendo assim 4 vidas. Portanto, o personagem terminou seu primeiro "ciclo" com 8 vidas e 2 itens na "mochila".
+</p>
+
+<p align = "center">
+   No início do seu "segundo ciclo", as matrizes iriam ser inicializadas da seguinte forma:
+</p>
+
+<p align="center">
+<img src="images/matriz_gulosa_editada.png"/> 
+</p>
