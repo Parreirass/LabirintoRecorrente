@@ -60,14 +60,24 @@ AEDS I | CEFET-MG
 <img src="img/PossivelCaminho1.jpeg"/> 
 </p>
 
-<p align = "center">
+<p align = "justify">
    A partir dessas movimentações do personagem é possível observar que ele conquistou 10 itens no total, ou seja, conseguiu 2 vidas e ainda tem 2 itens em sua "mochila". Entretanto, ele passou por 4 perigos, perdendo assim 4 vidas. Portanto, o personagem terminou seu primeiro "ciclo" com 8 vidas e 2 itens na "mochila".
 </p>
 
-<p align = "center">
+<p align = "justify">
    No início do seu "segundo ciclo", as matrizes iriam ser inicializadas da seguinte forma:
 </p>
 
 <p align="center">
-<img src="images/matriz_gulosa_editada.png"/> 
+<img src="img/PossivelCaminho2.jpeg"/> 
 </p>
+
+<p align = "justify">
+  É possível observar que, os caminhos com itens que o personagem passou, tiveram um decréscimo em seus valores de uma unidade, ou seja, cada posição passou a ter um item a menos. 
+</p>
+
+<p align="justify">
+  É possível observar também que, caminhos que não têm mais itens, tem seu valor setado como "0", ou seja, não são caminhos perigosos, porém também não dão itens ao personagem. Essas posições zeradas ajudam o personagem a ganhar o jogo, já que para ganhar ele deve fazer um percursso todo sem pegar itens.
+</p>
+
+
