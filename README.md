@@ -99,3 +99,19 @@ Uma possível vitória pode ser observada na imagem abaixo:
 <p align ="justify">
 	O algorítimo foi separado em funções. As três primeiras funções presentes no arquivo .hpp servem para randomizar um número pré estabelecido de matrizes e imprimí-las no arquivo .data. As demais funções servem para o funcionamento do jogo e coordenação do personagem entre as matrizes.
 </p>
+
+<p align ="justify">
+	Partindo para o funcionamento do jogo, as quatro últimas funções apresentadas no arquivo .hpp são as responsáveis. Inicialmente, a função "Ler Matriz" faz a leitura das matrizes criadas à partir da randomização, criando o arquivo "input.data". Após isso, a função chamada "EscreverMatriz" separa cada matriz em um arquivo .data separado, para fazer a leitura de cada matriz individualmente, economizando assim, espaço de memória. A função "EscreverMatriz" também é responsável pelo armazenamento do nome dos arquivos na struct que trabalha com a demarcação das posições já buscadas pelo personagem, para fazer a verificação de quantas casas foram exploradas por ele.
+</p>
+
+<p align="justify">
+	A função responsável pelo funcionamento do jogo, de forma principal, é a chamada "PercorrerMatriz". Em primeiro lugar, ela irá verificar em qual matriz o personagem está localizado. Caso ele esteja iniciando o jogo naquele momento ou efetuando seu primeiro passo após um teletransporte, essa função irá randomizar uma posição inicial para o personagem (essa posição não pode ser um perigo e nem uma parede).
+</p>
+
+<p align ="justify">
+	Caso o personagem já esteja inserido em um novo mapa (matriz), ele irá partir para sua movimentação aleatória. Tal processo se dá em uma randomização de um número de 1 a 8, cada número corresponde à uma possível direção que o personagem irá avançar. 
+</p>
+
+<p align ="justify">
+	Exemplo: A randomização apresentou o número 3, logo o personagem irá se dirigir ao leste. Caso a posição ao leste tenha um número, o personagem irá ganhar um item!
+</p>
