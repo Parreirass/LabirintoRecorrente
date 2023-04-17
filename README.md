@@ -119,7 +119,18 @@ Uma possível vitória pode ser observada na imagem abaixo:
 <p align ="center">
 <img src="img/Terminal1.jpeg">
 </p>
+<p align ="justify">
+	Quando o personagem atingir a última coluna da matriz atual, seu próximo movimento irá ser na matriz seguinte. O terminal irá exibir o novo mapa a ser explorado com a mensagem informado de qual matriz o personagem irá se localizar.
+</p>
 
 <p align ="justify">
 	Caso a posição randomizada tiver um perigo, o personagem irá perder uma vida!
+</p>
+
+<p align ="center">
+<img src="img/Terminal2.jpeg">
+</p>
+
+<p align ="justify">
+	Ao adiquirir 4 itens, o personagem os troca por uma vida!
 </p>
