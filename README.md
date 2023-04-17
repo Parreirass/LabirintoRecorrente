@@ -134,3 +134,15 @@ Uma possível vitória pode ser observada na imagem abaixo:
 <p align ="justify">
 	Ao adiquirir 4 itens, o personagem os troca por uma vida!
 </p>
+
+<p align ="center">
+<img src="img/Terminal3.jpeg">
+</p>
+
+<p align="justify">
+	Existem duas condições de finalização de jogo, com a derrota ou com a vitória.
+</p>
+
+<p align="justify">
+	Em caso de derrota, o personagem terá perdido todas as vidas e o terminal irá exibir a mensagem abaixo:  
+</p>
