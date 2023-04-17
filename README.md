@@ -144,5 +144,17 @@ Uma possível vitória pode ser observada na imagem abaixo:
 </p>
 
 <p align="justify">
-	Em caso de derrota, o personagem terá perdido todas as vidas e o terminal irá exibir a mensagem abaixo:  
+	Em caso de derrota, o personagem terá perdido todas as vidas e o terminal irá exibir a mensagem abaixo com as informações da aventura do personagem:  
+</p>
+
+<p align ="center">
+<img src="img/DerrotaTerminal.jpeg">
+</p>
+
+<p align ="justify">
+	Já em caso de vitória, o personagme terá que ter feito o caminho proposto nas regras acima. Então, o terminal irá exibir a seguinte mensagem com as informações da batalha que acabara de ser vencida:
+</p>
+
+<p align="center">
+<img src="img
 </p>
