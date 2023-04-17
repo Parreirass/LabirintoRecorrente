@@ -16,10 +16,6 @@ AEDS I | CEFET-MG
 </p>
 
 <p align ="justify">
-	O algorítimo foi separado em funções. As três primeiras funções presentes no arquivo .hpp servem para randomizar um número pré estabelecido de matrizes e imprimí-las no arquivo .data. As demais funções servem para o funcionamento do jogo e coordenação do personagem entre as matrizes.
-</p>
-
-<p align ="justify">
 	Como qualquer jogo, ele também possui algumas regras:
   <div>
     <p>  
@@ -80,4 +76,26 @@ AEDS I | CEFET-MG
   É possível observar também que, caminhos que não têm mais itens, tem seu valor setado como "0", ou seja, não são caminhos perigosos, porém também não dão itens ao personagem. Essas posições zeradas ajudam o personagem a ganhar o jogo, já que para ganhar ele deve fazer um percursso todo sem pegar itens.
 </p>
 
+<p align="justify">
+Uma possível vitória pode ser observada na imagem abaixo:
+</p>
 
+<p align="center">
+<img src="img/PossivelVitoria.jpeg"/> 
+</p>
+
+<p align="justify">
+É possível observar que o caminho percorrido pelo personagem em todas as matrizes não o fez conquistar nenhum item. Ele só passou por posições zeradas ou com perigos. Caso ele consiga um caminho como esse e não perca todas as suas vidas, ele ganha o jogo!
+</p>
+<br>
+<br>
+
+<p align ="center">
+==========================================================================================
+</p>
+
+<br>
+<br>
+<p align ="justify">
+	O algorítimo foi separado em funções. As três primeiras funções presentes no arquivo .hpp servem para randomizar um número pré estabelecido de matrizes e imprimí-las no arquivo .data. As demais funções servem para o funcionamento do jogo e coordenação do personagem entre as matrizes.
+</p>
