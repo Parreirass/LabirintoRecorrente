@@ -115,3 +115,11 @@ Uma possível vitória pode ser observada na imagem abaixo:
 <p align ="justify">
 	Exemplo: A randomização apresentou o número 3, logo o personagem irá se dirigir ao leste. Caso a posição ao leste tenha um número, o personagem irá ganhar um item!
 </p>
+
+<p align ="center">
+<img src="img/Terminal1.jpeg">
+</p>
+
+<p align ="justify">
+	Caso a posição randomizada tiver um perigo, o personagem irá perder uma vida!
+</p>
