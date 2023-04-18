@@ -171,7 +171,7 @@ CONCLUSÃO:
       &emsp; - Se, em um caso, a movimentação do personagem atingir todas as posições possíveis, o custo do algorítimo é quadrático.
       </p>
       <p>
-      &emsp; - Em outra situação, se sua movimentação for apenas nas diagonais, seu custo é próximo do linear
+      &emsp; - Em outra situação, se sua movimentação for apenas em linha reta, seguindo uma mesma direção até o seu fim, seu custo é próximo do linear.
       </p>
 </p>
 <p align="justify">
