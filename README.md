@@ -166,7 +166,16 @@ Uma possível vitória pode ser observada na imagem abaixo:
 <p align="justify">
 CONCLUSÃO:
 <br>
--> O projeto apresentado
+-> Quanto ao custo computacional, não é possível fazer uma análise precisa nesse algorítmo. Por ser baseado em uma movimentação totalmente randômica, é possível fazer apenas suposições quanto ao custo computacional. Por exemplo: 
+<p>
+      &emsp; - Se, em um caso, a movimentação do personagem atingir todas as posições possíveis, o custo do algorítimo é quadrático.
+      </p>
+      <p>
+      &emsp; - Em outra situação, se sua movimentação for apenas nas diagonais, seu custo é próximo do linear
+      </p>
+</p>
+<p align="justify">
+-> Portanto, o algorítmo apresentado pode ser inferido como uma das melhores formas de execução. O modelo de randomização de movimento apresentado utiliza poucas estruturas de repetição e de condicionamento, podendo, em seu melhor caso, ter seu custo próximo do linear.
 </p>
 
 <p align="center">
